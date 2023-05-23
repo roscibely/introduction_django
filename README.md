@@ -4,6 +4,30 @@
 
 Este é um tutorial de introdução ao Django, um framework para desenvolvimento web em Python.
 
+O projeto está estruturado como segue: 
+
+```bash
+hellodjango/
+    manage.py
+    hellodjango/
+        __init__.py
+        settings.py
+        urls.py
+        wsgi.py
+    homepage/
+        __init__.py
+        admin.py
+        apps.py
+        migrations/
+            __init__.py
+        models.py
+        tests.py
+        views.py
+        templates/
+            homepage/
+                index.html
+```
+
 ## Pré-requisitos
 
 Para seguir este tutorial, você precisa ter o Python 3 instalado em sua máquina. Você pode baixá-lo [aqui](https://www.python.org/downloads/).
