@@ -1,5 +1,5 @@
 """
-URL configuration for myproject project.
+URL configuration for hellodjango project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from homepage.views import HomepageView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', HomepageView.as_view(), name='home'), 
 ]
