@@ -1,5 +1,6 @@
 # Começando com Django 
 
+
 ## Introdução
 
 Este é um tutorial de introdução ao Django, um framework para desenvolvimento web em Python.
@@ -30,7 +31,20 @@ hellodjango/
 
 ## Pré-requisitos
 
-Para seguir este tutorial, você precisa ter o Python 3 instalado em sua máquina. Você pode baixá-lo [aqui](https://www.python.org/downloads/).
+Para seguir este tutorial, você precisa ter: 
+
+* Python 3 instalado em sua máquina. Você pode baixá-lo [aqui](https://www.python.org/downloads/).
+
+* Django 
+
+* Um ambiente virtual. Exemplo virtualenv
+
+ ```bash
+pip install virtualenv
+
+```   
+
+
 
 ## Instalação
 
